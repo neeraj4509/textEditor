@@ -1,0 +1,38 @@
+.editorContainer {
+  max-width: 800px;
+  margin: 20px auto;
+  border: 1px solid #000000;
+  min-height: 400px;
+  position: relative; 
+}
+
+.editorHeader {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+  margin-bottom: 10px; 
+}
+
+.editorTitle {
+  margin: 5;
+  flex-grow: 1; 
+  text-align: center; 
+}
+
+.saveButton {
+  align-items: center;
+  position: absolute; 
+  left: calc(50% + 200px);
+ 
+}
+
+.DraftEditor-root {
+  padding: 10px;
+}
+
+.DraftEditor-editorContainer,
+.public-DraftEditor-content {
+  min-height: 380px; 
+}
